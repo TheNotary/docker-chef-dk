@@ -11,7 +11,7 @@ There is the prepared volume `/data` for saving data into a local machine.
 To start a container with this image you just need to run the following command:
 
 ```bash
-docker run -it -v <LOCAL_PATH>:/data --name chef-dk jakubzapletal/chef-dk:0.3.6
+docker run -it -v <LOCAL_PATH>:/data --name chef-dk jakubzapletal/chef-dk:0.6.2
 ```
 
 ## Building the image yourself
